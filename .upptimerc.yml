@@ -1,31 +1,63 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: StarCitizenWiki # Your GitHub username
+repo: status # Your GitHub repository name
+assignees:
+  - octfx
 
+# Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Star Citizen Wiki
+    url: https://star-citizen.wiki
+  - name: Star Citizen Wiki CDN
+    url: https://cdn.star-citizen.wiki
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: Star Citizen Wiki API
+    url: https://api.star-citizen.wiki
+  - name: Parsoid
+    url: https://star-citizen.wiki/api.php?action=visualeditor&format=json&paction=parse&page=Star_Citizen_Wiki
+    __dangerous__body_down: "apierror-"
+  - name: Star Citizen Wiki Docs
+    url: https://docs.star-citizen.wiki
+  - name: Star Citizen Wiki Analytics
+    url: https://analytics.star-citizen.wiki
+  - name: Star Citizen Wiki Archiv
+    url: https://archiv.star-citizen.wiki
+  - name: Action API
+    url: https://star-citizen.wiki/api.php?action=query&prop=info&titles=Gladius
+    method: GET
+    __dangerous__body_down: "apierror-"
+ 
+# CI schedule
+workflowSchedule:
+  # Check for response time every hour
+  responseTime: "0 * * * *"
+  graphs: "2 * * * *"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  theme: dark
+  favicon: https://cdn.star-citizen.wiki/images/c/c6/Star_Citizen_Wiki_Logo_Stern.svg
+  faviconSvg: https://cdn.star-citizen.wiki/favicon.ico
+  # Add your custom domain below, or remove the next line if you don't have a domain
+  cname: status.star-citizen.wiki
+  # Uncomment the following line if you don't have a custom domain and add your repo name
+  # baseUrl: /upptime
+  logoUrl: https://cdn.star-citizen.wiki/images/c/c6/Star_Citizen_Wiki_Logo_Stern.svg
+  name: Star Citizen Wiki Uptime
+  introTitle: "Star Citizen Wiki Uptime"
+  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/StarCitizenWiki/uptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Wiki
+      href: https://star-citizen.wiki
+    - title: Wiki API
+      href: https://api.star-citizen.wiki
+  customBodyHtml: "<script async defer data-domain='status.star-citizen.wiki' src='https://analytics.star-citizen.wiki/js/plausible.js'></script>"
+  customHeadHtml: "<style>/* Author: Alistair3149 */ :root{--body-background-color:#131a21!important;--body-text-color:rgba(255, 255, 255, 0.6)!important;--card-background-color:#282f35!important;--nav-background-color:transparent!important;--nav-border-bottom-color:transparent!important;--nav-current-border-bottom-color:#36c!important;--card-border-color:rgba(255, 255, 255, 0.05)!important;--down-border-left-color:#dd3333!important;--down-background-color:#6b1020!important;--degraded-border-left-color:#ffcc33!important;--up-border-left-color:#00af89!important;--tag-color:#1f262c!important;--tag-up-background-color:#14866d!important;--tag-down-background-color:#b32424!important;--tag-degraded-background-color:#ac6600!important;--change-background-color:#f7b731!important;--error-button-border-color:#1a46ad!important;--error-button-background-color:#3867d6!important;--error-button-color:#ffffff!important;--submit-button-border-color:#1a46ad!important;--submit-button-background-color:#3867d6!important;--submit-button-color:#ffffff!important;--graph-opacity:1!important;--graph-filter:none!important}</style>"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
