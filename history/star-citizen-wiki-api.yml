@@ -1,7 +1,7 @@
 url: https://api.star-citizen.wiki
-status: up
-code: 200
-responseTime: 922
-lastUpdated: 2023-01-26T09:15:11.524Z
+status: down
+code: 500
+responseTime: 11034
+lastUpdated: 2023-01-26T09:26:49.542Z
 startTime: Fri Apr 23 2021 06:47:36 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
