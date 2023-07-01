@@ -9,18 +9,17 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.95%",
-    "time": 505,
-    "timeDay": 436,
-    "timeWeek": 388,
-    "timeMonth": 389,
-    "timeYear": 501,
+    "uptimeYear": "99.97%",
+    "time": 504,
+    "timeDay": 424,
+    "timeWeek": 400,
+    "timeMonth": 391,
+    "timeYear": 500,
     "dailyMinutesDown": {
       "2023-05-08": 62,
       "2023-04-27": 22,
       "2023-04-26": 37,
-      "2022-10-05": 30,
-      "2022-07-01": 24
+      "2022-10-05": 30
     }
   },
   {
@@ -34,11 +33,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 336,
-    "timeDay": 206,
-    "timeWeek": 191,
-    "timeMonth": 207,
-    "timeYear": 331,
+    "time": 335,
+    "timeDay": 199,
+    "timeWeek": 194,
+    "timeMonth": 205,
+    "timeYear": 330,
     "dailyMinutesDown": {}
   },
   {
@@ -51,19 +50,18 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
+    "uptimeYear": "99.98%",
     "time": 697,
-    "timeDay": 860,
-    "timeWeek": 868,
-    "timeMonth": 802,
-    "timeYear": 698,
+    "timeDay": 924,
+    "timeWeek": 883,
+    "timeMonth": 815,
+    "timeYear": 699,
     "dailyMinutesDown": {
       "2023-05-23": 26,
       "2023-04-26": 16,
       "2023-02-09": 16,
       "2023-01-26": 20,
-      "2023-01-03": 21,
-      "2022-07-01": 24
+      "2023-01-03": 21
     }
   },
   {
@@ -76,12 +74,12 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.72%",
-    "time": 372,
-    "timeDay": 548,
-    "timeWeek": 569,
-    "timeMonth": 510,
-    "timeYear": 378,
+    "uptimeYear": "99.74%",
+    "time": 376,
+    "timeDay": 577,
+    "timeWeek": 574,
+    "timeMonth": 516,
+    "timeYear": 380,
     "dailyMinutesDown": {
       "2023-04-27": 161,
       "2023-04-26": 21,
@@ -90,8 +88,7 @@
       "2023-01-03": 21,
       "2022-12-17": 630,
       "2022-12-16": 446,
-      "2022-10-09": 24,
-      "2022-07-01": 24
+      "2022-10-09": 24
     }
   },
   {
@@ -104,40 +101,38 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.98%",
+    "uptimeYear": "100.00%",
     "time": 243,
-    "timeDay": 271,
-    "timeWeek": 227,
+    "timeDay": 216,
+    "timeWeek": 226,
     "timeMonth": 217,
     "timeYear": 244,
-    "dailyMinutesDown": {
-      "2022-07-01": 24
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Star Citizen Wiki Analytics",
     "url": "https://analytics.star-citizen.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/analytics.star-citizen.wiki.ico",
     "slug": "star-citizen-wiki-analytics",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.91%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.93%",
     "time": 774,
-    "timeDay": 739,
-    "timeWeek": 686,
-    "timeMonth": 726,
+    "timeDay": 722,
+    "timeWeek": 694,
+    "timeMonth": 723,
     "timeYear": 776,
     "dailyMinutesDown": {
+      "2023-07-01": 5,
       "2023-06-16": 78,
       "2023-02-21": 16,
       "2023-02-14": 15,
       "2023-01-26": 200,
       "2023-01-03": 21,
-      "2022-08-26": 19,
-      "2022-07-01": 24
+      "2022-08-26": 19
     }
   },
   {
@@ -146,20 +141,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/archiv.star-citizen.wiki.ico",
     "slug": "star-citizen-wiki-archiv",
     "status": "up",
-    "uptime": "99.80%",
+    "uptime": "99.81%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.94%",
-    "time": 442,
-    "timeDay": 168,
-    "timeWeek": 180,
-    "timeMonth": 184,
-    "timeYear": 433,
+    "uptimeYear": "99.95%",
+    "time": 439,
+    "timeDay": 219,
+    "timeWeek": 187,
+    "timeMonth": 182,
+    "timeYear": 430,
     "dailyMinutesDown": {
       "2023-04-27": 46,
-      "2022-12-16": 176,
-      "2022-07-01": 24
+      "2022-12-16": 176
     }
   },
   {
@@ -172,10 +166,10 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.92%",
+    "uptimeYear": "99.94%",
     "time": 137,
-    "timeDay": 145,
-    "timeWeek": 149,
+    "timeDay": 149,
+    "timeWeek": 151,
     "timeMonth": 144,
     "timeYear": 137,
     "dailyMinutesDown": {
@@ -185,8 +179,7 @@
       "2023-01-20": 20,
       "2023-01-03": 21,
       "2022-12-16": 25,
-      "2022-10-09": 24,
-      "2022-07-01": 24
+      "2022-10-09": 24
     }
   }
 ]
