@@ -9,10 +9,9 @@ sites:
   - name: Star Citizen Wiki
     url: https://star-citizen.wiki
   - name: Star Citizen Wiki CDN
-    url: https://cdn.star-citizen.wiki
+    url: https://cdn.star-citizen.wiki/favicon.ico
     expectedStatusCodes:
       - 200
-      - 403
   - name: Star Citizen Wiki API
     url: https://api.star-citizen.wiki
   - name: Parsoid
