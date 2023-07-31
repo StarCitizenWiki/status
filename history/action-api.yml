@@ -1,7 +1,7 @@
 url: https://star-citizen.wiki/api.php?action=query&prop=info&titles=Gladius
-status: down
-code: 503
-responseTime: 152
-lastUpdated: 2023-07-31T11:11:40.713Z
+status: up
+code: 200
+responseTime: 368
+lastUpdated: 2023-07-31T11:25:35.619Z
 startTime: Fri Apr 23 2021 06:47:47 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
