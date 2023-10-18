@@ -1,7 +1,7 @@
 url: https://analytics.star-citizen.wiki
-status: up
-code: 200
-responseTime: 709
-lastUpdated: 2023-10-18T01:03:55.605Z
+status: down
+code: 502
+responseTime: 1000
+lastUpdated: 2023-10-18T02:00:35.204Z
 startTime: 2021-04-23T06:47:43.000Z
 generator: Upptime <https://github.com/upptime/upptime>
