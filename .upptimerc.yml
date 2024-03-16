@@ -21,8 +21,6 @@ sites:
     url: https://docs.star-citizen.wiki
   - name: Star Citizen Wiki Analytics
     url: https://analytics.star-citizen.wiki
-  - name: Star Citizen Wiki Archiv
-    url: https://archiv.star-citizen.wiki
   - name: Action API
     url: https://star-citizen.wiki/api.php?action=query&prop=info&titles=Gladius
     method: GET
